@@ -8,7 +8,7 @@
 
 class bdTelegram {
 
-	public function __construct ($nome_bd = 'recebersmsbot.db')
+	public function __construct ($nome_bd = 'Recebsms_bot.db')
 	{
 		$this->nome_bd = $nome_bd;
 		$this->con = new PDO ("sqlite:{$this->nome_bd}");

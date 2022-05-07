@@ -25,7 +25,7 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 @Recebsms_bot
 
 📍 Nosso grupo
-https://t.me/Recebsms
+@Recebsms
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
@@ -34,7 +34,7 @@ https://t.me/Recebsms
 
 	*$msg = $tlg->forwardMessage ([
 	 	'chat_id' => $usuario ['id_telegram'],
-	 	'from_chat_id' => '-1613726749',
+	 	'from_chat_id' => '-532887828',
 	 	'text' => "<b>🤓 RECEBA SMS COM NÚMEROS NOVOS PARA CRIAR CONTAS</b>
 
 - Telegram
@@ -48,7 +48,7 @@ https://t.me/Recebsms
 @Recebsms_bot
 
 📍 Nosso grupo
-https://t.me/Recebsms
+@Recebsms
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
@@ -57,7 +57,7 @@ https://t.me/Recebsms
 
 	 $msg = @$tlg->sendMessage ([
 	 	'chat_id' => $usuario ['id_telegram'],
-	 	'text' => "✨ Use o comando /totaladicionados para saber a quantidade de usuários que você adicionou no nosso grupo https://t.me/Recebsms\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
+	 	'text' => "✨ Use o comando /totaladicionados para saber a quantidade de usuários que você adicionou no nosso grupo @Recebsms\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
 	 	'parse_mode' => 'html'
 	 ]);
 

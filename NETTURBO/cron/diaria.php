@@ -3,7 +3,7 @@
 include __DIR__.'/../includes/includes.php';
 
 $tlg = new Telegram (TOKEN_BOT);
-$bd_tlg = new bdTelegram (__DIR__.'/../recebersmsbot.db');
+$bd_tlg = new bdTelegram (__DIR__.'/../Recebsms_bot.db');
 
 foreach ($bd_tlg->todosUsuarios () as $usuario){
 

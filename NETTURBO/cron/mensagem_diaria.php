@@ -19,9 +19,9 @@ $tlg->sendMessage ([
 @Recebsms_bot
 
 🌐 Canal de Referências
-https://t.me/Recebsms
+@Recebsms
 📍 Nosso grupo
-https://t.me/Recebsms
+@Recebsms
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
